@@ -1,0 +1,178 @@
+button:hover {
+  background-color:#5e586d ;
+  cursor:pointer;
+}
+
+.header {
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    z-index:100;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color:#853099;
+  }
+  
+  .header-left {
+    display:flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .header-right {
+    flex:2;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    flex-shrink: 0;
+  }
+
+  .logo {
+    width:80px;
+    height:80px;
+    object-fit: cover;
+    object-position:bottom;
+    border-radius: 50px;
+    margin:10px; 
+  }
+
+  .viola-text {
+    font-style: open sans,arial;
+    color: #9984ce;
+    margin: 0px; 
+  }
+
+  .signup-button {
+    font-style: open sans,arial;
+    margin-right: 10px;
+    background-color: #6A53A6;
+    color: #E4DCFF;
+    border-radius: 20px;
+    border: none;
+    padding:9px;
+  }
+
+  .login-button {
+    font-family: open sans;
+    margin-right: 15px;
+    background-color: #6A53A6;
+    color: #E4DCFF;
+    border-radius: 20px;
+    border: none;
+    padding: 9px;
+  }
+
+  .background {
+    margin-top: 110px;
+    height: 500px;
+    width:1510px;
+    position: absolute;
+  } 
+
+  .desc-text {
+    font-family: open sans;
+    color:#4B1B6E;
+    width:550px;
+    font-size: 25px;
+    position:relative;
+    padding-top: 160px;
+    padding-left: 320px;
+    text-align: center;
+  }
+
+  .grid-layout {
+    display: flex;
+    flex-direction: row;
+    left: 10px;
+    right: 10px;
+    flex: 3;
+    justify-content: space-between;
+    background-color: #4B1B6E;
+  }
+
+   .tutorial-icon, .buy-icon{
+    width:100px;
+    margin-top: 30px;
+    display: block;
+    padding-left: 200px;
+  }
+
+  .sell-icon {
+    height:60px;
+    width:100px;
+    margin-top: 30px;
+    padding-left: 200px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .sell-button, .tutorial-button, .buy-button {
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: none;
+    background-color:#A280EC;
+    color: #4B1B6E;
+    padding:7px 14px;
+    font-family: open-sans;
+  }
+
+
+  .sell-text, .tutorial-text, .buy-text{
+    width:380px;
+    text-align: center;
+    margin-left: 70px;
+    font-size: 23px;
+    color: aliceblue;
+    font-family: open-sans;
+  }
+
+  .images-and-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex:3;
+    left: 0;
+    right: 0;
+  }
+  
+  .flower1 {
+    width:250px;
+    object-fit: cover;
+  }
+
+  .flower2 {
+    width: 410px;
+  }
+
+  .join {
+    background-color: #6A53A6;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 30px;
+    border: none;
+    padding :8px 14px;
+  }
+
+  .newsletter {
+    background-color: #6A53A6;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 30px;
+    border: none;
+    padding :8px 14px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    margin-left: 170px;
+  }
